@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+ .inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.work-sans{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.sora{
+  font-family: 'Sora', sans-serif;
+}
+
+*{
+  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+*::-webkit-scrollbar {
+  width: 0.25rem;
+  background-color: #1414141A;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #120B48;
+  border-radius: 1.2rem;
+  width: .25rem;
+}
