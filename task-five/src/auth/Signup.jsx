@@ -15,7 +15,7 @@ export default function Signup() {
       <div className="flex flex-col justify-center py-20  items-center w-full">
         <div className="flex flex-col justify-center items-center gap-8">
           <div className="flex flex-col items-center gap-2">
-            <h1 className="inter text-[#14141] text-[2rem] font-bold tracking-wide">
+            <h1 className="inter text-[#14141] text-[1.5rem] md:text-[2rem] font-bold tracking-wide">
               Log in or Sign up
             </h1>
             <p className="text-[#434343] text-[.875rem] tracking-[.00875rem] w-3/4 text-center">
@@ -23,14 +23,14 @@ export default function Signup() {
             </p>
           </div>
 
-          <div className="flex flex-col items-start gap-6">
-            <button className="py-[.81875rem] pl-[7.69rem] pr-[8.31rem] w-full justify-center items-center flex gap-2 rounded-[.75rem] border border-[#141414] bg-white">
+          <div className="flex flex-col w-full items-start gap-6">
+            <button className="py-[.81875rem] md:pl-[7.69rem] md:pr-[8.31rem] w-full justify-center items-center flex gap-2 rounded-[.75rem] border border-[#141414] bg-white">
               <img src={Google} alt="" />
-              <span className="text-[#141414] text-base inter font-medium">
+              <span className="text-[#141414] text-[.85rem] w md:text-base inter font-medium">
                 Continue with Google
               </span>
             </button>
-            <button className="py-[.81875rem] pl-[7.69rem] pr-[8.31rem] w-full justify-center items-center flex gap-2 rounded-[.75rem] border border-[#141414] bg-white">
+            <button className="py-[.81875rem] md:pl-[7.69rem] md:pr-[8.31rem] w-full justify-center items-center flex gap-2 rounded-[.75rem] border border-[#141414] bg-white">
               <img src={Facebook} alt="" />
               <span className="text-[#141414] inter text-base font-medium">
                 Continue with Facebook

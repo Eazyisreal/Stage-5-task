@@ -26,7 +26,7 @@ export default function HowItWorks() {
   return (
     <section className="bg-white wrapper flex flex-col justify-center py-20 px-4 items-center gap-16">
       <div className="flex w-full flex-col justify-center items-center gap-2">
-        <h2 className="text-center sora text-[2.5rem] text[#141414] font-bold">
+        <h2 className="text-center sora text-[1.5rem] md:text-[2.5rem] text[#141414] font-bold">
           How it works
         </h2>
       </div>
@@ -37,10 +37,10 @@ export default function HowItWorks() {
                 <div className="flex flex-col items-center gap-8">
                     <img src={item.image} alt="" />
                     <div className="flex flex-col justify-center items-center gap-4">
-                        <h3 className="text-[#1b233d] inter text-[1.75rem] font-semibold">
+                        <h3 className="text-[#1b233d] inter text-[1.25rem] md:text-[1.75rem] font-semibold">
                         {item.title}
                         </h3>
-                        <p className="text-[#616163] text-center  work-sans text-[1.25rem] ">
+                        <p className="text-[#616163] text-center  work-sans md:text-[1.25rem] ">
                         {item.text}
                         </p>
                     </div>

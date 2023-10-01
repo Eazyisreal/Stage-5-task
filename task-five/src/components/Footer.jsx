@@ -54,9 +54,9 @@ const footerMenu=[
 ]
 export default function Footer() {
   return (
-    <footer className="flex justify-center items-center bg-primary p-4 lg:py-[6.12rem] lg:px-8 w-full ">
+    <footer className="flex justify-center items-center bg-primary px-4 py-8 lg:py-[6.12rem] lg:px-8 w-full ">
       <div className="flex flex-col md:flex-row w-full lg:w-[90%] wrapper gap-8 justify-between items-center ">
-        <div className="flex items-center w-full lg:w-1/2 p-[.625rem] gap-[.65rem]">
+        <div className="flex items-center w-full lg:w-1/2 py-[.625rem] gap-[.65rem]">
           <img src={Logo} alt="Image of Logo" />
           <h1 className="inter text-white font-bold text-base ">HelpMeOut</h1>
         </div>
