@@ -31,7 +31,7 @@ export default function RecentVideos() {
           Recent files
         </h2>
 
-        <div className="flex flex-col  justify-center items-center gap-16">
+        <div className="flex flex-coL md:flex-row justify-center items-center gap-16">
           {videoContent.map((item) => (
             <NavLink to={`/video/${item.id}`} key={item.id}>
               <div className="flex px-4 pt-4 pb-6 flex-col justify-center items-center gap-6 rounded-3xl border-[#b6b3c6] border border-opacity-60 bg-[#fbfbfb] bg-opacity-50">
