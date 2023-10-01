@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -84,4 +85,95 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--Outer-Radius, 1.5rem);
+    width: 100%
+}
+
+.bottom .tabs {
+    display: flex;
+    padding: 0rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+}
+
+.tabs>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.screen p {
+    color: var(--primary-primary-200, #928FAB);
+    font-family: Work Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tab p {
+    color: var(--primary-main, #120B48);
+    font-family: Work Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bottom .camera {
+    display: flex;
+    width: 15.75rem;
+    padding: var(--Inner-Radius, 0.75rem) var(--Inner-Radius, 0.75rem) var(--Inner-Radius, 0.75rem) 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: var(--Inner-Radius, 0.75rem);
+    border: 1px solid var(--primary-primary-600, #100A42);
+}
+
+.bottom .camera .case {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.camera .case p {
+    color: var(--primary-primary-600, #100A42);
+    font-family: Work Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.svg {
+    display: flex;
+    width: 2.25rem;
+    height: 1.25rem;
+    padding: 0.125rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: var(--Inner-Radius, 0.75rem);
+    background: var(--primary-main, #120B48);
+}
+
+
+.button {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: var(--Inner-Radius, 0.75rem);
+    background: var(--primary-main, #120B48);
+    color: #FAFDFF;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
